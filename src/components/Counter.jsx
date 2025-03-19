@@ -7,6 +7,7 @@ function Counter() {
   return (
     <div>
         <br />
+        <p>Counter using useState</p>
         <h1>{count}</h1>
         <Button color={"blue"} handleClick={()=>setCount(count+1)}>+</Button>
         <Button color={"pink"} handleClick={()=>setCount(count-1)}>-</Button>
@@ -14,4 +15,4 @@ function Counter() {
   )
 }
 
-export default Counter
+export default Counter;

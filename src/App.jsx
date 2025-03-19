@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ReuseableUI from './components/ReuseableUI'
+import ReducerCounter from './components/ReducerCounter'
 import './App.css'
 import Counter from './components/Counter'
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <ReuseableUI />
     <Counter/>
+    <ReducerCounter/>
     </>
   )
 }
